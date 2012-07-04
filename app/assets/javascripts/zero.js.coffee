@@ -2,4 +2,6 @@ window.Zero =
   Models: {}
   Views: {}
   Collections: {}
-  fun: -> return 2
+  fun: (arg) ->
+    return 3 if arg is 'hello'
+    return 2
